@@ -1,0 +1,49 @@
+{
+    "text": ".",
+    "children": [
+        {
+            "text": "角色管理",
+            "itype": "home_page",
+            "iconCls": "icon_home",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "角色id",
+                    "itype": "work_list",
+                    "checked": true,
+                    "iconCls": "icon_order",
+                    "leaf": true
+                },
+                {
+                    "text": "节点id",
+                    "itype": "work_list",
+                    "checked": true,
+                    "iconCls": "icon_order",
+                    "leaf": true
+                },
+                {
+                    "text": "父节点",
+                    "itype": "work_list",
+                    "checked": true,
+                    "iconCls": "icon_order",
+                    "leaf": true
+                },
+                {
+                    "text": "是否用户",
+                    "itype": "public_info",
+                    "checked": true,
+                    "iconCls": "icon_public_info",
+                    "leaf": true
+                },
+                {
+                    "text": "备注",
+                    "itype": "public_info",
+                    "checked": true,
+                    "iconCls": "icon_public_info",
+                    "leaf": true
+                }
+            ]
+        }
+    ]
+}

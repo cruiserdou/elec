@@ -1,0 +1,155 @@
+{
+    "text": ".",
+    "children": [
+        {
+            "text": "主页",
+            "itype": "home_page",
+            "iconCls": "icon_home",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "工作列表",
+                    "itype": "work_list",
+                    "checked": true,
+                    "iconCls": "icon_order",
+                    "leaf": true
+                },
+                {
+                    "text": "公共信息",
+                    "itype": "public_info",
+                    "checked": true,
+                    "iconCls": "icon_public_info",
+                    "leaf": true
+                }
+            ]
+        },
+        {
+            "text": "业务办理",
+            "itype": "no",
+            "iconCls": "icon_busi_contact",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "综合查询",
+                    "itype": "flowsearchf",
+                    "checked": false,
+                    "iconCls": "icon_table",
+                    "leaf": true
+                },
+                {
+                    "text": "办理流程",
+                    "itype": "totalbusimgr",
+                    "checked": false,
+                    "iconCls": "icon_flow",
+                    "leaf": true
+                },
+                {
+                    "text": "流程管理",
+                    "itype": "flowbusimgrf",
+                    "checked": false,
+                    "iconCls": "icon_custorm",
+                    "leaf": true
+                }
+            ]
+
+        },
+        {
+            "text": "基础信息",
+            "itype": "no",
+            "iconCls": "icon_baseinfo",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "银行信息",
+                    "itype": "bankf",
+                    "checked": false,
+                    "iconCls": "icon_bank",
+                    "leaf": true
+                },
+                {
+                    "text": "银行产品",
+                    "itype": "bank_productf",
+                    "checked": false,
+                    "iconCls": "icon_card_bank",
+                    "leaf": true
+                },
+                {
+                    "text": "渠道基本",
+                    "itype": "chanelf",
+                    "checked": false,
+                    "iconCls": "icon_person",
+                    "leaf": true
+                }
+            ]
+        },
+        {
+            "text": "数据存储管理",
+            "itype": "data_storage_management",
+            "iconCls": "icon_server",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "数据备份",
+                    "itype": "backupf",
+                    "checked": false,
+                    "iconCls": "icon_backup",
+                    "leaf": true
+                },
+                {
+                    "text": "数据恢复",
+                    "itype": "restoref",
+                    "checked": false,
+                    "iconCls": "icon_restore",
+                    "leaf": true
+                }
+            ]
+        },
+        {
+            "text": "系统安全管理",
+            "itype": "system_security_management",
+            "iconCls": "icon_security",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "功能权限",
+                    "itype": "func_auf",
+                    "checked": false,
+                    "iconCls": "icon_lock",
+                    "leaf": true
+                },
+                {
+                    "text": "数据权限",
+                    "itype": "data_auf",
+                    "checked": false,
+                    "iconCls": "icon_lock",
+                    "leaf": true
+                },
+                {
+                    "text": "部门",
+                    "itype": "departf",
+                    "checked": false,
+                    "iconCls": "icon_department",
+                    "leaf": true
+                },
+                {
+                    "text": "角色",
+                    "itype": "rolef",
+                    "checked": false,
+                    "iconCls": "icon_role",
+                    "leaf": true
+                },
+                {
+                    "text": "用户",
+                    "itype": "userf",
+                    "iconCls": "icon_user",
+                    "leaf": true
+                }
+            ]
+        }
+    ]
+}
