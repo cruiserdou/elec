@@ -1,138 +1,97 @@
 {
     "text": ".",
     "children": [
+//        {
+//            "text": "台账",
+//            "itype": "no",
+//            "iconCls": "icon_carapp",
+//            "leaf": false,
+//            "expanded": true,
+//            "children": [
+//                {
+//                    "text": "车辆基本信息",
+//                    "itype": "truckf",
+//                    "iconCls": "icon_truck_yellow",
+//                    "leaf": "true"
+//                },
+//                {
+//                    "text": "车辆使用明细",
+//                    "itype": "no",
+//                    "iconCls": "icon_ccar",
+//                    "leaf": false,
+//                    "expanded": true,
+//                    "children": [
+//                        {
+//                            "text": "出车记录",
+//                            "itype": "truckoutf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        },
+//                        {
+//                            "text": "回车记录",
+//                            "itype": "truckinf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        }
+//                    ]
+//                },
+//
+//                {
+//                    "text": "行车明细",
+//                    "itype": "transdetail",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": "true"
+//                },
+//                {
+//                    "text": "运费",
+//                    "itype": "fare",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": "true"
+//                },
+//                {
+//                    "text": "二保信息",
+//                    "itype": "second",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": "true"
+//                },
+//                {
+//                    "text": "购货记录",
+//                    "itype": "goodslist",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": "true"
+//                }
+//            ]
+//        },
         {
-            "text": "台账",
-            "itype": "no",
-            "iconCls": "icon_carapp",
-            "leaf": false,
-            "expanded": true,
-            "children": [
-                {
-                    "text": "车辆基本信息",
-                    "itype": "truckf",
-                    "iconCls": "icon_truck_yellow",
-                    "leaf": "true"
-                },
-                {
-                    "text": "车辆使用明细",
-                    "itype": "no",
-                    "iconCls": "icon_ccar",
-                    "leaf": false,
-                    "expanded": true,
-                    "children": [
-                        {
-                            "text": "出车记录",
-                            "itype": "truckoutf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        },
-                        {
-                            "text": "回车记录",
-                            "itype": "truckinf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        }
-                    ]
-                },
-                {
-                    "text": "年检信息管理",
-                    "itype": "datacirf",
-                    "iconCls": "icon_police",
-                    "leaf": false,
-                    "expanded": true,
-                    "children": [
-                        {
-                            "text": "交警年检",
-                            "itype": "policef",
-                            "iconCls": "icon_clipboard",
-                            "leaf": true
-                        },
-                        {
-                            "text": "运管年检",
-                            "itype": "transmf",
-                            "iconCls": "icon_clipboard",
-                            "leaf": true
-                        }
-                    ]
-                },
-                {
-                    "text": "行车明细",
-                    "itype": "transdetail",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": "true"
-                },
-                {
-                    "text": "运费",
-                    "itype": "fare",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": "true"
-                },
-                {
-                    "text": "二保信息",
-                    "itype": "second",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": "true"
-                },
-                {
-                    "text": "购货记录",
-                    "itype": "goodslist",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": "true"
-                }
-            ]
-        },
-        {
-            "text": "司机管理",
+            "text": "用户管理",
             "itype": "no",
             "iconCls": "icon_person",
             "leaf": false,
             "expanded": true,
             "children": [
                 {
-                    "text": "司机基本信息",
+                    "text": "用户基本信息",
                     "itype": "datacirf_gov",
                     "iconCls": "icon_card",
                     "leaf": true
-                },
-                {
-                    "text": "司机工资管理",
-                    "itype": "salaryf",
-                    "iconCls": "icon_money",
-                    "leaf": true
                 }
+//                {
+//                    "text": "司机工资管理",
+//                    "itype": "salaryf",
+//                    "iconCls": "icon_money",
+//                    "leaf": true
+//                }
             ]
         },
         {
-            "text": "加油管理",
-            "itype": "no",
-            "iconCls": "icon_gas_station",
-            "leaf": false,
-            "expanded": true,
-            "children": [
-                {
-                    "text": "库房加油记录",
-                    "itype": "refuelf",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": true
-                },
-                {
-                    "text": "外出加油记录",
-                    "itype": "oilstation_refuelf",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": true
-                }
-            ]
-        },
-        {
-            "text": "违章管理",
+            "text": "部门管理",
             "itype": "no",
             "iconCls": "icon_warn",
             "leaf": false,
             "expanded": true,
             "children": [
                 {
-                    "text": "违章记录",
+                    "text": "部门记录",
                     "itype": "brf",
                     "iconCls": "icon_paper_doc",
                     "leaf": true
@@ -140,123 +99,188 @@
             ]
         },
         {
-            "text": "车辆保险",
-            "itype": "no",
-            "iconCls": "icon_license",
+            "text": "菜单管理",
+            "itype": "datacirf",
+            "iconCls": "icon_police",
             "leaf": false,
             "expanded": true,
             "children": [
                 {
-                    "text": "保险管理",
-                    "itype": "insurerf",
-                    "iconCls": "icon_paper_doc",
+                    "text": "菜单记录",
+                    "itype": "policef",
+                    "iconCls": "icon_clipboard",
                     "leaf": true
-                }
+                }//,
+//                {
+//                    "text": "运管年检",
+//                    "itype": "transmf",
+//                    "iconCls": "icon_clipboard",
+//                    "leaf": true
+//                }
             ]
         },
         {
-            "text": "车辆维修",
-            "itype": "no",
-            "iconCls": "icon_tool",
-            "leaf": false,
-            "expanded": true,
-            "children": [
-                {
-                    "text": "维修保养记录",
-                    "itype": "maintainf",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": true
-                }
-            ]
-        },
-        {
-            "text": "车辆事故管理",
+            "text": "客户管理",
             "itype": "no",
             "iconCls": "icon_traffic",
             "leaf": false,
             "expanded": true,
             "children": [
                 {
-                    "text": "事故记录",
+                    "text": "客户记录",
                     "itype": "accidentsf",
                     "iconCls": "icon_paper_doc",
                     "leaf": true
                 }
             ]
         },
+
         {
-            "text": "库房管理",
+            "text": "电价类型管理",
             "itype": "no",
-            "iconCls": "icon_storehouse",
+            "iconCls": "icon_tool",
             "leaf": false,
             "expanded": true,
             "children": [
                 {
-                    "text": "油料管理",
-                    "itype": "no",
-                    "iconCls": "icon_oil",
-                    "leaf": false,
-                    "expanded": true,
-                    "children": [
-                        {
-                            "text": "柴油出入库记录",
-                            "itype": "oilusef",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        },
-                        {
-                            "text": "柴油对账问题记录",
-                            "itype": "oilnotef",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        }
-                    ]
-                },
-                {
-                    "text": "轮胎管理",
-                    "itype": "no",
-                    "iconCls": "icon_tyres",
-                    "leaf": false,
-                    "expanded": true,
-                    "children": [
-                        {
-                            "text": "数据汇总",
-                            "itype": "tyresdatacountf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        },
-                        {
-                            "text": "数据采集",
-                            "itype": "tyresdatacollectf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        },
-                        {
-                            "text": "数据分析",
-                            "itype": "tyresdataanayf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        },
-                        {
-                            "text": "历史记录",
-                            "itype": "tyreshistoryf",
-                            "iconCls": "icon_paper_doc",
-                            "leaf": true
-                        }
-                    ]
-                },
-                {
-                    "text": "配件消耗记录",
-                    "itype": "fituse",
-                    "iconCls": "icon_paper_doc",
-                    "leaf": true
-                },
-                {
-                    "text": "配件盘库",
-                    "itype": "fitcount",
+                    "text": "电价类型管理",
+                    "itype": "oilstation_refuelf",
                     "iconCls": "icon_paper_doc",
                     "leaf": true
                 }
+            ]
+        },
+        {
+            "text": "电表管理",
+            "itype": "no",
+            "iconCls": "icon_license",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "电表记录",
+                    "itype": "insurerf",
+                    "iconCls": "icon_paper_doc",
+                    "leaf": true
+                }
+            ]
+        },
+
+        {
+            "text": "电费管理",
+            "itype": "no",
+            "iconCls": "icon_gas_station",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "电费记录",
+                    "itype": "refuelf",
+                    "iconCls": "icon_paper_doc",
+                    "leaf": true
+                }
+            ]
+        },
+        {
+            "text": "附件管理",
+            "itype": "no",
+            "iconCls": "icon_contract",
+            "leaf": false,
+            "expanded": true,
+            "children": [
+                {
+                    "text": "附件上传",
+                    "itype": "contract_upload",
+                    "iconCls": "icon_upload",
+                    "leaf": true
+                },
+                {
+                    "text": "附件信息",
+                    "itype": "contract_baseinfo",
+                    "iconCls": "icon_doc",
+                    "leaf": true
+                },
+                {
+                    "text": "附件下载",
+                    "itype": "contract_download",
+                    "iconCls": "icon_download",
+                    "leaf": true
+                }
+            ]
+        }
+//        {
+//            "text": "库房管理",
+//            "itype": "no",
+//            "iconCls": "icon_storehouse",
+//            "leaf": false,
+//            "expanded": true,
+//            "children": [
+//                {
+//                    "text": "油料管理",
+//                    "itype": "no",
+//                    "iconCls": "icon_oil",
+//                    "leaf": false,
+//                    "expanded": true,
+//                    "children": [
+//                        {
+//                            "text": "柴油出入库记录",
+//                            "itype": "oilusef",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        },
+//                        {
+//                            "text": "柴油对账问题记录",
+//                            "itype": "oilnotef",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        }
+//                    ]
+//                },
+//                {
+//                    "text": "轮胎管理",
+//                    "itype": "no",
+//                    "iconCls": "icon_tyres",
+//                    "leaf": false,
+//                    "expanded": true,
+//                    "children": [
+//                        {
+//                            "text": "数据汇总",
+//                            "itype": "tyresdatacountf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        },
+//                        {
+//                            "text": "数据采集",
+//                            "itype": "tyresdatacollectf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        },
+//                        {
+//                            "text": "数据分析",
+//                            "itype": "tyresdataanayf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        },
+//                        {
+//                            "text": "历史记录",
+//                            "itype": "tyreshistoryf",
+//                            "iconCls": "icon_paper_doc",
+//                            "leaf": true
+//                        }
+//                    ]
+//                },
+//                {
+//                    "text": "配件消耗记录",
+//                    "itype": "fituse",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": true
+//                },
+//                {
+//                    "text": "配件盘库",
+//                    "itype": "fitcount",
+//                    "iconCls": "icon_paper_doc",
+//                    "leaf": true
+//                }
 //                ,
 //                {
 //                    "text": "入库材料明细账单",
@@ -270,34 +294,8 @@
 //                    "iconCls": "icon_gear",
 //                    "leaf": true
 //                }
-            ]
-        },
-        {
-            "text": "合同管理",
-            "itype": "no",
-            "iconCls": "icon_contract",
-            "leaf": false,
-            "expanded": true,
-            "children": [
-                {
-                    "text": "合同上传",
-                    "itype": "contract_upload",
-                    "iconCls": "icon_upload",
-                    "leaf": true
-                },
-                {
-                    "text": "合同基本信息",
-                    "itype": "contract_baseinfo",
-                    "iconCls": "icon_doc",
-                    "leaf": true
-                },
-                {
-                    "text": "合同下载",
-                    "itype": "contract_download",
-                    "iconCls": "icon_download",
-                    "leaf": true
-                }
-            ]
-        }
+//            ]
+//        }
+
     ]
 }

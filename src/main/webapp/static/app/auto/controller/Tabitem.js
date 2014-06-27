@@ -6,58 +6,51 @@ Ext.define('App.controller.Tabitem', {
         'Fiber', 'Globaleye', 'Contact', 'WorkOrderType', 'DutyType', 'BusiType', 'BreakDown', 'AreaPer',
         'DutyPer', 'BusiPer', 'WorkOrderPer', 'Area', 'CauseType', 'Warn', 'Warnweek', 'Warnten',
         'JobAnay', 'Custorm_nm', 'Bdmonth', 'Causeper', 'Causepertype', 'Recordperson', 'Contract'
-        , 'syj_accident', 'syj_contract', 'syj_diesel_reconcile', 'syj_diesel_wdvoucher', 'syj_driver'
-        , 'syj_enter_car', 'syj_fitt_consume', 'syj_fitt_inventory', 'syj_freight', 'syj_insure'
-        , 'syj_out_refuel', 'syj_outward_car', 'syj_purchase', 'syj_qt_analysis', 'syj_qt_collect', 'syj_qt_gather'
-        , 'syj_repairs', 'syj_tire_history', 'syj_traffic_annual', 'syj_traffic_details', 'syj_tsa_annual'
-        , 'syj_two_insur', 'syj_vehicle', 'syj_violation', 'syj_wages', 'syj_warehouse_refuel'],
+        , 'syj_custs', 'syj_depts','syj_meters','syj_types','syj_users','syj_upload','syj_fees','syj_menu'],
 
     models: [
         'Digitcir', 'Datacir', 'Transdev', 'Datadev', 'Custorm', 'Fiber', 'Globaleye', 'Contact',
         'WorkOrderType', 'DutyType', 'BusiType', 'BreakDown', 'AreaPer', 'DutyPer', 'BusiPer',
         'Area', 'WorkOrderPer', 'CauseType', 'Warn', 'JobAnay', 'Custorm_nm', 'Bdmonth', 'Causeper',
         'Recordperson', 'Contract'
-        , 'syj_accident', 'syj_contract', 'syj_diesel_reconcile', 'syj_diesel_wdvoucher', 'syj_driver'
-        , 'syj_enter_car', 'syj_fitt_consume', 'syj_fitt_inventory', 'syj_freight', 'syj_insure'
-        , 'syj_out_refuel', 'syj_outward_car', 'syj_purchase', 'syj_qt_analysis', 'syj_qt_collect', 'syj_qt_gather'
-        , 'syj_repairs', 'syj_tire_history', 'syj_traffic_annual', 'syj_traffic_details', 'syj_tsa_annual'
-        , 'syj_two_insur', 'syj_vehicle', 'syj_violation', 'syj_wages', 'syj_warehouse_refuel'],
+        , 'syj_custs', 'syj_depts','syj_meters','syj_types','syj_users','syj_upload','syj_fees','syj_menu'],
 
     views: [
         'maintain.record.Maintainf', 'maintain.record.Query', 'maintain.record.Grid', 'maintain.record.DetailW',
-        'driver.baseinfo.Driverf', 'driver.baseinfo.Query', 'driver.baseinfo.Grid', 'driver.baseinfo.DetailW',
-        'driver.salary.Salaryf', 'driver.salary.Query', 'driver.salary.Grid', 'driver.salary.DetailW',
-        'truck.info.Truckf', 'truck.info.Query', 'truck.info.Grid', 'truck.info.DetailW',
-        'truck.second.Second', 'truck.second.Query', 'truck.second.Grid',
-        'truck.fare.Fare', 'truck.fare.Query', 'truck.fare.Grid',
-        'truck.goodslist.Goodslist', 'truck.goodslist.Query', 'truck.goodslist.Grid',
-        'truck.transdetail.Transdetail', 'truck.transdetail.Query', 'truck.transdetail.Grid',
-        'refuel.storeroom.Refuelf', 'refuel.storeroom.Grid', 'refuel.storeroom.Query', 'refuel.storeroom.DetailW',
-        'refuel.oil_station.Refuelf', 'refuel.oil_station.Grid', 'refuel.oil_station.Query',
-        'refuel.oil_station.DetailW',
-        'inspection.police.Policef', 'inspection.police.Grid', 'inspection.police.Query', 'inspection.police.DetailW',
-        'inspection.transm.Transmf', 'inspection.transm.Grid', 'inspection.transm.Query','inspection.transm.DetailW',
-        'truckuse.in.Truckinf', 'truckuse.in.Grid', 'truckuse.in.Query', 'truckuse.in.DetailW',
-        'truckuse.out.Truckoutf', 'truckuse.out.Grid', 'truckuse.out.DetailW', 'truckuse.out.Query',
-        'accidents.Accidentsf', 'accidents.Grid', 'accidents.Query', 'accidents.DetailW',
-        'breakrule.Brf', 'breakrule.Grid', 'breakrule.Query', 'breakrule.DetailW',
-        'contract.upload.Upload', 'contract.upload.Grid',
-        'contract.baseinfo.Baseinfo', 'contract.baseinfo.Grid',
-        'contract.download.Download', 'contract.download.Grid',
-        'breakdown.anay.Anayf', 'breakdown.anay.Grid', 'breakdown.anay.Query',
-        'breakdown.mine_bd.Minef', 'breakdown.mine_bd.Query',
-        'breakdown.total_bd.Totalf', 'breakdown.total_bd.Query',
-        'breakdown.warn.Warnf', 'breakdown.warn.QueryWeek', 'breakdown.warn.QueryMonth',
-        'breakdown.warn.GridWeek', 'breakdown.warn.GridMonth',
-        'storeroom.oil.note.Oilnotef', 'storeroom.oil.note.Grid', 'storeroom.oil.note.Query', 'storeroom.oil.note.DetailW',
-        'storeroom.oil.use.Oilusef', 'storeroom.oil.use.Grid', 'storeroom.oil.use.Query', 'storeroom.oil.use.DetailW',
-        'storeroom.tyres.datacount.Tyresdatacountf', 'storeroom.tyres.datacount.Grid', 'storeroom.tyres.datacount.Query', 'storeroom.tyres.datacount.DetailW',
-        'storeroom.tyres.dataanay.Tyresdataanayf', 'storeroom.tyres.dataanay.Grid', 'storeroom.tyres.dataanay.Query', 'storeroom.tyres.dataanay.DetailW',
-        'storeroom.tyres.datacollect.Tyresdatacollectf', 'storeroom.tyres.datacollect.Grid', 'storeroom.tyres.datacollect.Query', 'storeroom.tyres.datacollect.DetailW',
-        'storeroom.tyres.history.Tyreshistoryf', 'storeroom.tyres.history.Grid', 'storeroom.tyres.history.Query', 'storeroom.tyres.history.DetailW',
-        'storeroom.fituse.Fituse', 'storeroom.fituse.Query', 'storeroom.fituse.Grid',
-        'storeroom.fitcount.Fitcount', 'storeroom.fitcount.Query', 'storeroom.fitcount.Grid',
+//        'driver.baseinfo.Driverf', 'driver.baseinfo.Query', 'driver.baseinfo.Grid', 'driver.baseinfo.DetailW',
+//        'driver.salary.Salaryf', 'driver.salary.Query', 'driver.salary.Grid', 'driver.salary.DetailW',
+//        'truck.info.Truckf', 'truck.info.Query', 'truck.info.Grid', 'truck.info.DetailW',
+//        'truck.second.Second', 'truck.second.Query', 'truck.second.Grid',
+//        'truck.fare.Fare', 'truck.fare.Query', 'truck.fare.Grid',
+//        'truck.goodslist.Goodslist', 'truck.goodslist.Query', 'truck.goodslist.Grid',
+//        'truck.transdetail.Transdetail', 'truck.transdetail.Query', 'truck.transdetail.Grid',
+        'fees.Refuelf', 'fees.Grid', 'fees.Query',
+        'types.Refuelf', 'types.Grid', 'types.Query',
+        'menu.Policef', 'menu.Grid', 'menu.Query', 'menu.DetailW',
+//        'inspection.transm.Transmf', 'inspection.transm.Grid', 'inspection.transm.Query','inspection.transm.DetailW',
+//        'truckuse.in.Truckinf', 'truckuse.in.Grid', 'truckuse.in.Query', 'truckuse.in.DetailW',
+//        'truckuse.out.Truckoutf', 'truckuse.out.Grid', 'truckuse.out.DetailW', 'truckuse.out.Query',
+        'annex.upload.Upload', 'annex.upload.Grid',
+        'annex.baseinfo.Baseinfo', 'annex.baseinfo.Grid',
+        'annex.download.Download', 'annex.download.Grid',
+        'users.Driverf','users.Query', 'users.Grid',
+        'custs.Accidentsf', 'custs.Grid', 'custs.Query', 'custs.DetailW',
+        'depts.Brf', 'depts.Grid', 'depts.Query', 'depts.DetailW',
         'insurance.Insurerf', 'insurance.Grid', 'insurance.Query'
+//        'breakdown.anay.Anayf', 'breakdown.anay.Grid', 'breakdown.anay.Query',
+//        'breakdown.mine_bd.Minef', 'breakdown.mine_bd.Query',
+//        'breakdown.total_bd.Totalf', 'breakdown.total_bd.Query',
+//        'breakdown.warn.Warnf', 'breakdown.warn.QueryWeek', 'breakdown.warn.QueryMonth',
+//        'breakdown.warn.GridWeek', 'breakdown.warn.GridMonth',
+//        'storeroom.oil.note.Oilnotef', 'storeroom.oil.note.Grid', 'storeroom.oil.note.Query', 'storeroom.oil.note.DetailW',
+//        'storeroom.oil.use.Oilusef', 'storeroom.oil.use.Grid', 'storeroom.oil.use.Query', 'storeroom.oil.use.DetailW',
+//        'storeroom.tyres.datacount.Tyresdatacountf', 'storeroom.tyres.datacount.Grid', 'storeroom.tyres.datacount.Query', 'storeroom.tyres.datacount.DetailW',
+//        'storeroom.tyres.dataanay.Tyresdataanayf', 'storeroom.tyres.dataanay.Grid', 'storeroom.tyres.dataanay.Query', 'storeroom.tyres.dataanay.DetailW',
+//        'storeroom.tyres.datacollect.Tyresdatacollectf', 'storeroom.tyres.datacollect.Grid', 'storeroom.tyres.datacollect.Query', 'storeroom.tyres.datacollect.DetailW',
+//        'storeroom.tyres.history.Tyreshistoryf', 'storeroom.tyres.history.Grid', 'storeroom.tyres.history.Query', 'storeroom.tyres.history.DetailW',
+//        'storeroom.fituse.Fituse', 'storeroom.fituse.Query', 'storeroom.fituse.Grid',
+//        'storeroom.fitcount.Fitcount', 'storeroom.fitcount.Query', 'storeroom.fitcount.Grid',
+
     ],
 
     refs: [

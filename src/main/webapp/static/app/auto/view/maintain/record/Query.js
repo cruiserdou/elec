@@ -323,99 +323,23 @@ Ext.define('App.view.maintain.record.Query', {
     layout: 'column',
     items: [
         {
-            xtype: 'panel',
-            id: 'datacir_pubnet_query_panel1',
-            columnWidth: .4,
-            border: false,
-            defaultType: 'textfield',
-            layout: {
-                type: 'vbox',
-                align: 'strech',
-                pack: 'start'
-            },
-            items: [
-                {
-                    allowBlank: true,
-                    fieldLabel: '工单编号',
-                    id: 'datacir_pubnet_query_custorm_nm',
-                    name: 'custorm_nm',
-                    emptyText: '工单编号'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '车牌号',
-                    id: 'datacir_pubnet_query_custorm_branch',
-                    name: 'custorm_branch',
-                    emptyText: '车牌号'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '修理厂',
-                    id: 'datacir_pubnet_query_belong_project',
-                    name: 'belong_project',
-                    emptyText: '修理厂'
-                }
-            ]
-        },
-        {
-
-            xtype: 'panel',
-            columnWidth: .4,
-            border: false,
-            defaultType: 'textfield',
-            layout: {
-                type: 'vbox',
-                align: 'strech',
-                pack: 'start'
-            },
-            items: [
-                {
-                    allowBlank: true,
-                    fieldLabel: '送修日期',
-                    id: 'datacir_pubnet_query_bandwidth',
-                    name: 'bandwidth',
-                    emptyText: '送修日期'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '送修人',
-                    id: 'datacir_pubnet_query_ip',
-                    name: 'ip',
-                    emptyText: '送修人'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '取车人',
-                    id: 'datacir_pubnet_query_inner_dev_nm',
-                    name: 'inner_dev_nm',
-                    emptyText: '取车人'
-                }
-            ]
+            allowBlank: true,
+            fieldLabel: '用表类型名称',
+            name: 'typename',
+            id: 'geye_query_custorm_nm',
+            emptyText: '用表类型名称'
         },
         {
             xtype: 'panel',
-            columnWidth: .2,
             border: false,
-            layout: {
-                type: 'vbox',
-                align: 'strech',
-                pack: 'start'
-            },
             items: [
                 {
                     xtype: 'button',
-                    id: 'datacir_pubnet_find',
                     iconCls: 'icon_search',
                     text: '查找'
                 },
                 {
-                    xtype: 'panel',
-                    height: 10,
-                    border: false
-                },
-                {
                     xtype: 'button',
-                    id: 'datacir_pubnet_reset',
                     iconCls: 'icon_reset',
                     text: '重置'
                 }

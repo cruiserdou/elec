@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>车辆管理系统</title>
+    <title>电费管理系统</title>
     <link rel="stylesheet" href="static/css/index.css"/>
     <link href="static/css/images/rmb.ico" rel="shortcut icon">
     <script src="static/jslib/jquery.mini.js"></script>
@@ -28,7 +28,7 @@
 <body>
 <div id="login">
 
-    <h2><span><img src="static/css/images/login.png"></span>车辆管理系统</h2>
+    <h2><span><img src="static/css/images/login.png"></span>电费管理系统</h2>
 
     <form action="main" method="POST">
 

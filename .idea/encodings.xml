@@ -1,120 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/accident/AddAccidentInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/accident/DeleteAccidentInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/accident/ObtainAccidentInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/accident/UpdateAccidentInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/traffic_annual/AddTrafficAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/traffic_annual/DeleteTrafficAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/traffic_annual/ObtainTrafficAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/traffic_annual/UpdateTrafficAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/tsa_annual/AddTsaAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/tsa_annual/DeleteTsaAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/tsa_annual/ObtainTsaAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/annual/tsa_annual/UpdateTsaAnnualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/enter/AddEnterInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/enter/DeleteEnterInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/enter/ObtainEnterInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/enter/UpdateEnterInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/outward/AddOutwardInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/outward/DeleteOutwardInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/outward/ObtainOutwardInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/carMeg/outward/UpdateOutwardInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/contract/AddContractInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/contract/DeleteContractInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/contract/ObtainContractInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/contract/UpdateContractInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/reconcile/AddReconcileInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/reconcile/DeleteReconcileInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/reconcile/ObtainReconcileInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/reconcile/UpdateReconcileInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/wdvoucher/AddWdvoucherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/wdvoucher/DeleteWdvoucherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/wdvoucher/ObtainWdvoucherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dieselMeg/wdvoucher/UpdateWdvoucherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/driver/AddDriverInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/driver/DeleteDriverInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/driver/ObtainDriverInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/driver/UpdateDriverInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/wages/AddWagesInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/wages/DeleteWagesInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/wages/ObtainWagesInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/driverMeg/wages/UpdateWagesInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/consume/AddConsumeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/consume/DeleteConsumeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/consume/ObtainConsumeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/consume/UpdateConsumeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/inventory/AddInventoryeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/inventory/DeleteInventoryeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/inventory/ObtainInventoryeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/fitt/inventory/UpdateInventoryeInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/freight/AddFreightInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/freight/DeleteFreightInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/freight/ObtainFreightInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/freight/UpdateFreightInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/insure/AddInsureInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/insure/DeleteInsureInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/insure/ObtainInsureInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/insure/UpdateInsureInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/purchase/AddPurchaseInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/purchase/DeletePurchaseInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/purchase/ObtainPurchaseInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/purchase/UpdatePurchaseInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/outrefuel/AddOutrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/outrefuel/DeleteOutrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/outrefuel/ObtainOutrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/outrefuel/UpdateOutrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/whrefuel/AddwhrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/whrefuel/DeletewhrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/whrefuel/ObtainwhrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/refuel/whrefuel/UpdatewhrefuelInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repairs/AddRepairsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repairs/DeleteRepairsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repairs/ObtainRepairsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repairs/UpdateRepairsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trhistory/AddTrhistoryInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trhistory/DeleteTrhistoryInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trhistory/ObtainTrhistoryInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trhistory/UpdateTrhistoryInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtanalysis/AddTrqtanalysisInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtanalysis/DeleteTrqtanalysisInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtanalysis/ObtainTrqtanalysisInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtanalysis/UpdateTrqtanalysisInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtcollect/AddTrqtcollectInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtcollect/DeleteTrqtcollectInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtcollect/ObtainTrqtcollectInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtcollect/UpdateTrqtcollectInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtgather/AddTrqtgatherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtgather/DeleteTrqtgatherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtgather/ObtainTrqtgatherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/tire/trqtgather/UpdateTrqtgatherInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/traannual/AddTraannualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/traannual/DeleteTraannualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/traannual/ObtainTraannualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/traannual/UpdateTraannualInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/tradetails/AddTradetailsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/tradetails/DeleteTradetailsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/tradetails/ObtainTradetailsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/traffic/tradetails/UpdateTradetailsInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/twoInsur/AddTwoInsurInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/twoInsur/DeleteTwoInsurInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/twoInsur/ObtainTwoInsurInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/twoInsur/UpdateTwoInsurInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vehicle/AddVehicleInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vehicle/DeleteVehicleInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vehicle/ObtainVehicleInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vehicle/UpdateVehicleInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/violation/AddViolationInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/violation/DeleteViolationInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/violation/ObtainViolationInfo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/violation/UpdateViolationInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/upload/UploadFile.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/breakdown/anay/Anayf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/breakdown/mine_bd/Minef.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/breakdown/record/Bdf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/breakdown/total_bd/Totalf.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/breakrule/Brf.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/driver/baseinfo/Driverf.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/depts/Brf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/driver/salary/Salaryf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/insurance/Insurerf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/maintain/record/Maintainf.js" charset="UTF-8" />
@@ -131,6 +23,7 @@
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/truck/info/Truckf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/truck/second/Second.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/truck/transdetail/Transdetail.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/app/auto/view/users/Driverf.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/static/css/images/delete.png" charset="UTF-8" />
   </component>
 </project>

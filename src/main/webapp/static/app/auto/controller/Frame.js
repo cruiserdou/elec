@@ -38,7 +38,7 @@ Ext.define('App.controller.Frame', {
                     Ext.getCmp('tabPanel_id').add({
                         xtype: 'refuelf',
                         id: 'refuelf_id',
-                        title: '库房加油记录'
+                        title: '电费记录'
                     })
                 }
             }

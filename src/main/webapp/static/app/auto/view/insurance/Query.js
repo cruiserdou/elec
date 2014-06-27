@@ -10,13 +10,13 @@ Ext.define('App.view.insurance.Query', {
             border: true,
             items: [
                 {
-                    id: 'insure_add',
+                    id: 'meters_add',
                     text: '添加',
                     iconCls: 'icon_add',
                     listeners: {
                         click: function () {
                             Ext.create('widget.window', {
-                                title: '添加保险信息',
+                                title: '添加电表信息',
                                 modal: true,
                                 iconCls: 'icon_add',
                                 width: 290,
@@ -42,41 +42,39 @@ Ext.define('App.view.insurance.Query', {
                                         },
                                         items: [
                                             {
-                                                fieldLabel: '保险编号',
+                                                fieldLabel: '电表ID',
                                                 name: 'id'
                                             },
                                             {
-                                                fieldLabel: '车牌号',
-                                                name: 'plate'
+                                                fieldLabel: '电表编号',
+                                                name: 'meternum'
                                             },
                                             {
-                                                fieldLabel: '保单号',
-                                                name: 'policy'
+                                                fieldLabel: '客户编号',
+                                                name: 'custid'
                                             },
                                             {
-                                                fieldLabel: '生效日期',
-                                                name: 'effect',
-                                                xtype: 'datefield',
-                                                format: 'Y-m-d'
+                                                fieldLabel: '客户名',
+                                                name: 'custname'
                                             },
                                             {
-                                                fieldLabel: '保险公司',
-                                                name: 'company'
+                                                fieldLabel: '表箱编号',
+                                                name: 'box'
+                                            },
+                                            {
+                                                fieldLabel: '电表型号',
+                                                name: 'model'
                                             },
                                             {
                                                 xtype: 'numberfield',
-                                                fieldLabel: '保险费用(元)',
-                                                name: 'costs'
+                                                fieldLabel: '电量计数',
+                                                name: 'lastuesd'
                                             },
                                             {
-                                                fieldLabel: '到期日期',
-                                                name: 'due',
+                                                fieldLabel: '录入日期',
+                                                name: 'entry',
                                                 xtype: 'datefield',
                                                 format: 'Y-m-d'
-                                            },
-                                            {
-                                                fieldLabel: ' 经手人',
-                                                name: 'handling'
                                             },
                                             {
                                                 fieldLabel: '备注',
@@ -92,12 +90,12 @@ Ext.define('App.view.insurance.Query', {
                                                     var form = this.up('form').getForm();
                                                     if (form.isValid()){
                                                         form.submit({
-                                                            url: 'add_insure_info',
+                                                            url: 'add_meters_info',
                                                             waitMsg: '正在保存数据...',
                                                             success: function(form, action){
                                                                 Ext.Msg.alert("成功", "数据保存成功!");
                                                                 //重新载入渠道信息
-                                                                Ext.getCmp('grid_insure').getStore().reload();
+                                                                Ext.getCmp('grid_meters').getStore().reload();
                                                             },
                                                             failure: function(form, action){
                                                                 Ext.Msg.alert("失败", "数据保存失败!");
@@ -117,16 +115,16 @@ Ext.define('App.view.insurance.Query', {
                                     }
 
                                 ]
-                            }).show(Ext.get('insure_add'));
+                            }).show(Ext.get('meters_add'));
                         }
                     }
                 },
                 {
                     text: '编辑',
-                    id: 'insure_edit',
+                    id: 'meters_edit',
                     iconCls: 'icon_edit',
                     handler: function(){
-                        var sm = Ext.getCmp('grid_insure').getSelectionModel();
+                        var sm = Ext.getCmp('grid_meters').getSelectionModel();
                         var record = sm.getSelection()[0];
 
                         if(!record){
@@ -149,41 +147,39 @@ Ext.define('App.view.insurance.Query', {
                             items: [
                                 {
                                     readOnly: true,
-                                    fieldLabel: '保险编号',
+                                    fieldLabel: '电表ID',
                                     name: 'id'
                                 },
                                 {
-                                    fieldLabel: '车牌号',
-                                    name: 'plate'
+                                    fieldLabel: '电表编号',
+                                    name: 'meternum'
                                 },
                                 {
-                                    fieldLabel: '保单号',
-                                    name: 'policy'
+                                    fieldLabel: '客户编号',
+                                    name: 'custid'
                                 },
                                 {
-                                    fieldLabel: '生效日期',
-                                    name: 'effect',
-                                    xtype: 'datefield',
-                                    format: 'Y-m-d'
+                                    fieldLabel: '客户名',
+                                    name: 'custname'
                                 },
                                 {
-                                    fieldLabel: '保险公司',
-                                    name: 'company'
+                                    fieldLabel: '表箱编号',
+                                    name: 'box'
+                                },
+                                {
+                                    fieldLabel: '电表型号',
+                                    name: 'model'
                                 },
                                 {
                                     xtype: 'numberfield',
-                                    fieldLabel: '保险费用(元)',
-                                    name: 'costs'
+                                    fieldLabel: '电量计数',
+                                    name: 'lastuesd'
                                 },
                                 {
-                                    fieldLabel: '到期日期',
-                                    name: 'due',
+                                    fieldLabel: '录入日期',
+                                    name: 'entry',
                                     xtype: 'datefield',
                                     format: 'Y-m-d'
-                                },
-                                {
-                                    fieldLabel: ' 经手人',
-                                    name: 'handling'
                                 },
                                 {
                                     fieldLabel: '备注',
@@ -199,11 +195,11 @@ Ext.define('App.view.insurance.Query', {
                                         var form = this.up('form').getForm();
                                         if (form.isValid()){
                                             form.submit({
-                                                url: 'update_insure_info',
+                                                url: 'update_meters_info',
                                                 waitMsg: '正在保存数据...',
                                                 success: function(form, action){
                                                     Ext.Msg.alert("成功", "数据保存成功!");
-                                                    Ext.getCmp('grid_insure').getStore().reload();
+                                                    Ext.getCmp('grid_meters').getStore().reload();
                                                 },
                                                 failure: function(form, action){
                                                     Ext.Msg.alert("失败", "数据保存失败!");
@@ -228,7 +224,7 @@ Ext.define('App.view.insurance.Query', {
                             modal: true,
                             items: [editForm]
                         });
-                        editWindow.show(Ext.get('insure_edit'));
+                        editWindow.show(Ext.get('meters_edit'));
                         editForm.getForm().loadRecord(record);
                     }
                 },
@@ -248,7 +244,7 @@ Ext.define('App.view.insurance.Query', {
                     handler: function () {
                         Ext.Msg.confirm('信息', '确定要删除？', function (btn) {
                             if (btn == 'yes') {
-                                var sm = Ext.getCmp('grid_insure').getSelectionModel();
+                                var sm = Ext.getCmp('grid_meters').getSelectionModel();
                                 var rows = sm.getSelection();
 
                                 if (rows.length > 0) {
@@ -256,14 +252,14 @@ Ext.define('App.view.insurance.Query', {
                                         var row = rows[i];
                                         var id = row.get('id');
                                         Ext.Ajax.request({
-                                            url: 'delete_insure_info',
+                                            url: 'delete_meters_info',
                                             params: {
                                                 "id": id
                                             },
                                             waitMsg: '正在删除数据...',
                                             success: function (form, action) {
                                                 Ext.Msg.alert("成功", "数据删除成功!");
-                                                Ext.getCmp('grid_insure').getStore().reload();
+                                                Ext.getCmp('grid_meters').getStore().reload();
                                             },
                                             failure: function (form, action) {
                                                 Ext.Msg.alert("失败", "数据删除失败!");
@@ -292,100 +288,58 @@ Ext.define('App.view.insurance.Query', {
     items: [
         {
             xtype: 'panel',
-            id: 'insurer_query_panel1',
-            columnWidth: .4,
+            id: 'bd_query_panel1',
+            columnWidth: .3,
             border: false,
-            defaultType: 'textfield',
             layout: {
                 type: 'vbox',
                 align: 'strech',
                 pack: 'start'
             },
-            items: [
-                {
-                    allowBlank: true,
-                    fieldLabel: '工单编号',
-                    id: 'insurer_query_custorm_nm',
-                    name: 'custorm_nm',
-                    emptyText: '工单编号'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '车牌号',
-                    id: 'insurer_query_custorm_branch',
-                    name: 'custorm_branch',
-                    emptyText: '车牌号'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '保单号',
-                    id: 'insurer_query_belong_project',
-                    name: 'belong_project',
-                    emptyText: '保单号'
-                }
-            ]
-        },
-        {
-
-            xtype: 'panel',
-            columnWidth: .4,
-            border: false,
-            defaultType: 'textfield',
-            layout: {
-                type: 'vbox',
-                align: 'strech',
-                pack: 'start'
+            defaults: {
+//                labelWidth: 60,
+//                editable: false,
+                xtype: 'textfield'
             },
             items: [
                 {
                     allowBlank: true,
-                    fieldLabel: '保险公司',
-                    id: 'insurer_query_bandwidth',
-                    name: 'bandwidth',
-                    emptyText: '保险公司'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '投保费用',
-                    id: 'insurer_query_ip',
-                    name: 'ip',
-                    emptyText: '投保费用'
-                },
-                {
-                    allowBlank: true,
-                    fieldLabel: '经手人',
-                    id: 'insurer_query_inner_dev_nm',
-                    name: 'inner_dev_nm',
-                    emptyText: '经手人'
+                    fieldLabel: '电表编号',
+                    id: 'query_meternum',
+                    name: 'meternum',
+                    emptyText: '电表编号'
                 }
             ]
         },
         {
             xtype: 'panel',
-            columnWidth: .2,
             border: false,
-            layout: {
-                type: 'vbox',
-                align: 'strech',
-                pack: 'start'
-            },
             items: [
                 {
                     xtype: 'button',
-                    id: 'insurer_find',
                     iconCls: 'icon_search',
-                    text: '查找'
-                },
-                {
-                    xtype: 'panel',
-                    height: 10,
-                    border: false
+                    text: '查找',
+                    listeners: {
+                        click: function(){
+                            var store = Ext.getCmp('grid_meters').getStore();
+                            store.load({
+                                params: {
+                                    meternum: Ext.getCmp('query_meternum').getValue()
+                                }
+                            });
+                        }
+                    }
                 },
                 {
                     xtype: 'button',
-                    id: 'insurer_reset',
                     iconCls: 'icon_reset',
-                    text: '重置'
+                    text: '重置',
+                    listeners: {
+                        click: function(_this){
+                            _this.up('form').getForm().reset();
+                            Ext.getCmp('grid_meters').getStore().load();
+                        }
+                    }
                 }
             ]
         }

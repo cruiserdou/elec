@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>车辆管理系统</title>
+    <title>电费管理系统</title>
     <link rel="stylesheet" type="text/css" href="static/jslib/ext-4.2/resources/css/ext-all.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
     <link href="static/css/images/rmb.ico" rel="shortcut icon">
